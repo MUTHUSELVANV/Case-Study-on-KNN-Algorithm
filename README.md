@@ -17,4 +17,4 @@ In our code, we have compared how the decision boundary gradually generalizes da
 
 Similarly, we have also performed KNN Algorithm with n=5,10 ( n from n fold cross validation) to learn about the different results obtained from both the k values.
 
-For each dataset, we have predicted the class for random features in the dataset.
+For each dataset, we have predicted the class for random values of features in the dataset.
