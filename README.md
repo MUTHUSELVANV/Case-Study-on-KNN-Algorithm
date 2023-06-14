@@ -13,6 +13,6 @@ To sum it up, this is what is being done in the KNN algorithm.
   2) For each new data point, from the Euclidean metric(distance), we locate k nearest neighbors.
   3) we assign the new data point to the class which is the class of the majority of KNN.
 
-In our code, we have tried to perform KNN Algorithm on datasets with and without scaling the data to find out whether the K value(after hyperparameter tuning) is the same in both cases. It turns out that, K values in both cases may not be the same.
+In our code, we have compared how the decision boundary gradually generalizes data from being underfit. Further increasing the k after reaching the optimum k value makes the decision boundary underfit.
 
 Similarly, we have also performed KNN Algorithm with n=5,10 ( n from n fold cross validation) to learn about the different results obtained from both the k values.
