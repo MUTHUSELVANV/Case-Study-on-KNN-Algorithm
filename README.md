@@ -16,3 +16,5 @@ To sum it up, this is what is being done in the KNN algorithm.
 In our code, we have compared how the decision boundary gradually generalizes data from being underfit. Further increasing the k after reaching the optimum k value makes the decision boundary underfit.
 
 Similarly, we have also performed KNN Algorithm with n=5,10 ( n from n fold cross validation) to learn about the different results obtained from both the k values.
+
+For each dataset, we have predicted the class for random features in the dataset.
